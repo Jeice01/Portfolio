@@ -43,11 +43,17 @@ p{
     letter-spacing: 0.2rem;
     text-align: center;
 }
-.rodape_final{
-    background-color: black;
-    color: white;
-    text-align: center;
+
+.footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
-.text_footer{
+
+.text-footer .a {
+    display: inline-block;
     color: white;
-}   
+}
